@@ -1,0 +1,32 @@
+{
+  "name": "tsc-cea",
+  "version": "1.0.0",
+  "description": "Closure execution analysis in TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spensaur-K/tsc-cea.git"
+  },
+  "author": "Spencer Killen",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Spensaur-K/tsc-cea/issues"
+  },
+  "homepage": "https://github.com/Spensaur-K/tsc-cea#readme",
+  "devDependencies": {
+    "@types/node": "^11.9.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.5"
+  },
+  "dependencies": {
+    "@types/stack-trace": "0.0.29",
+    "stack-trace": "0.0.10",
+    "tslint": "^5.14.0",
+    "tslint-sonarts": "^1.9.0"
+  }
+}
